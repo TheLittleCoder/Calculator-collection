@@ -10,7 +10,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//I like trains and memes.... Let's fart
-		//Testing
+		//Testing again
 		String answer = "";
 		String run = "Y";
 		boolean on = true;
