@@ -9,7 +9,7 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//I like trains and memes
+		//I like trains and memes. Um
 		String answer = "";
 		String run = "Y";
 		boolean on = true;
