@@ -38,7 +38,7 @@ public class Calculator {
 		    	    a = Double.parseDouble(A);
 		    	}
 		    	else {
-		    		String[] parts1 = problem.split("\\b");
+		    		String[] parts1 = A.split("\\b");
 		            String numeratorA = parts1[0];
 		            String denominatorA = parts1[2];
 		            a = Double.parseDouble(numeratorA) / Double.parseDouble(denominatorA); 
@@ -47,7 +47,7 @@ public class Calculator {
 		    	    b = Double.parseDouble(B);
 		    	}
 		    	else {
-		    		String[] parts2 = problem.split("\\b");
+		    		String[] parts2 = B.split("\\b");
 		            String numeratorB = parts2[0];
 		            String denominatorB = parts2[2];
 		            b = Double.parseDouble(numeratorB) / Double.parseDouble(denominatorB);
